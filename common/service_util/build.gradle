@@ -1,0 +1,7 @@
+dependencies {
+    implementation project(":common:common_util")
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
+    implementation 'org.apache.commons:commons-pool2'
+}

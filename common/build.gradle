@@ -1,0 +1,22 @@
+subprojects {
+    jar.enabled = false
+    // 打包为 bootJar，可独立运行
+    bootJar {
+        enabled = true
+        archiveClassifier = 'boot'
+    }
+
+    dependencies {
+//        api "org.springframework.boot:spring-boot-starter-web"
+//
+//        api "com.baomidou:mybatis-plus-boot-starter"
+//
+//        api "org.projectlombok:lombok"
+//
+//        api "io.springfox:springfox-swagger2"
+//
+//        api "io.springfox:springfox-swagger-ui"
+//
+//        api "com.alibaba.fastjson2:fastjson2"
+    }
+}

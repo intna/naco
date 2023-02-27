@@ -1,0 +1,32 @@
+ext{
+    springCloudVersion = "2021.0.5"
+
+    springCloudAlibabaVersion = "2021.0.4.0"
+
+    nacosVersion = "2.2.0"
+
+    mybatisPlusBootStarterVersion = '3.5.2'
+
+    mysqlConnectorVersion = '8.0.31'
+
+    springfoxSwagger2Version = '3.0.0'
+
+    springfoxSwaggerUiVersion = '3.0.0'
+
+    jjwtVersion = '0.9.1'
+
+    httpClientVersion = '5.2.1'
+
+    fastjsonVersion = '2.0.23'
+
+    easyExcelVersion = '3.1.1'
+
+    aliyunSDKVersion = '4.6.1'
+
+    aliyunSdkOssVersion = '3.16.0'
+
+    jodaTimeVersion = '2.12.2'
+
+    lombokVersion = '1.18.24'
+
+}

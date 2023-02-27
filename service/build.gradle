@@ -1,0 +1,11 @@
+subprojects {
+    jar.enabled = false
+    // 打包为 bootJar，可独立运行
+    bootJar {
+        enabled = true
+        archiveClassifier = 'boot'
+    }
+   dependencies {
+
+   }
+}

@@ -1,0 +1,15 @@
+rootProject.name = 'naco'
+
+include 'common'
+include 'common:common_util'
+findProject(':common:common_util')?.name = 'common_util'
+include 'common:rabbit_util'
+findProject(':common:rabbit_util')?.name = 'rabbit_util'
+include 'common:service_util'
+findProject(':common:service_util')?.name = 'service_util'
+include 'hospital-manage'
+include 'model'
+include 'service'
+include 'service-gateway'
+include 'service_client'
+
