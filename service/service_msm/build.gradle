@@ -1,0 +1,5 @@
+dependencies {
+    implementation 'com.aliyun:aliyun-java-sdk-core'
+
+    implementation project(":common:rabbit_util")
+}

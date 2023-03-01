@@ -1,0 +1,4 @@
+dependencies {
+    implementation 'com.aliyun.oss:aliyun-sdk-oss'
+
+}
