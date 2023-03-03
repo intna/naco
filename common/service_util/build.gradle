@@ -4,4 +4,17 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 
     implementation 'org.apache.commons:commons-pool2'
+
+    implementation "org.projectlombok:lombok:${rootProject.ext.lombokVersion}"
+
+    implementation "com.alibaba.fastjson2:fastjson2:${rootProject.ext.fastjsonVersion}"
+
+    implementation "io.springfox:springfox-swagger2:${rootProject.ext.springfoxSwagger2Version}"
+
+    implementation "com.baomidou:mybatis-plus-boot-starter:${rootProject.ext.mybatisPlusBootStarterVersion}"
+
+    implementation "com.fasterxml.jackson.core:jackson-databind:2.13.3"
+
+    implementation "com.google.guava:guava:31.1-jre"
+
 }
