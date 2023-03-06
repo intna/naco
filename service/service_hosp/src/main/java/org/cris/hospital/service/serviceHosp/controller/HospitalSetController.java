@@ -107,4 +107,25 @@ public class HospitalSetController {
         return Result.ok();
     }
 
+    //医院设置锁定和解锁
+    @PutMapping("lockHospitalSet/{id}/{status}")
+    public Result lockHospitalSet(@PathVariable Long id,
+                                  @PathVariable Integer status){
+        //根据ID查询医院设置信息
+        HospitalSet hospitalSet = hospitalSetService.getById(id);
+
+        hospitalSet.setStatus(status);
+        hospitalSetService.updateById(hospitalSet);
+        return Result.ok();
+    }
+
+    //发送签名密钥
+    @PutMapping("sendKey/{id}")
+    public Result lockHospitalSet(@PathVariable Long id){
+        HospitalSet hospitalSet = hospitalSetService.getById(id);
+        String signKey = hospitalSet.getSignKey();
+        String hoscode = hospitalSet.getHoscode();
+        //TODO 发送短信
+        return Result.ok();
+    }
 }
