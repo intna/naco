@@ -15,4 +15,6 @@ spring:
   jackson:
     date-format: yyyy-MM-mm HH:mm:ss
     time-zone: GMT+8
-
+logging:
+  level:
+    root: warn
